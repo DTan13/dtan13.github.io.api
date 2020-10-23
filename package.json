@@ -10,5 +10,8 @@
     "url": "https://github.com/DTan13/dtan13.github.io.api.git"
   },
   "homepage": "https://github.com/DTan13/dtan13.github.io.api",
-  "bugs": "https://github.com/DTan13/dtan13.github.io.api/issues"
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  },
 }
