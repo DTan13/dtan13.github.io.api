@@ -1,0 +1,14 @@
+{
+  "name": "dtan13.github.io.api",
+  "version": "0.1.0",
+  "description": "This is backend for https://dtan13.github.io",
+  "main": "src/index.js",
+  "author": "Dhananjay Tanpure <dtan13@pm.me> (https://dtan13.github.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DTan13/dtan13.github.io.api.git"
+  },
+  "homepage": "https://github.com/DTan13/dtan13.github.io.api",
+  "bugs": "https://github.com/DTan13/dtan13.github.io.api/issues"
+}
