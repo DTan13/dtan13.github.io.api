@@ -24,3 +24,4 @@ yarn-error.log*
 
 #config
 config/firebase-adminsdk.json
+config/firebaseConfigBase64.txt

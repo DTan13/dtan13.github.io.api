@@ -1,9 +1,8 @@
 const fireBaseRouter = require('express').Router();
 const firebaseAdmin = require('firebase-admin');
-const serviceAccount = require('../../config/firebase-adminsdk.json');
 
 firebaseAdmin.initializeApp({
-    credential: firebaseAdmin.credential.cert(serviceAccount)
+    credential: firebaseAdmin.credential.cert(JSON.parse(Buffer.from(process.env.FIREBASE_ADMIN_SDK, 'base64').toString('ascii')))
 });
 
 const db = firebaseAdmin.firestore();
