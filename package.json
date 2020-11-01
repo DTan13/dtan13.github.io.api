@@ -13,7 +13,7 @@
   "bugs": "https://github.com/DTan13/dtan13.github.io.api/issues",
   "scripts": {
     "start": "node src/index.js",
-    "start-dev": "nodemon src/index.js"
+    "start-dev": "env-cmd -f config/dev.env nodemon src/index.js"
   },
   "dependencies": {
     "axios": "^0.20.0",
