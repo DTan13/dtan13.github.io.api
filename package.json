@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "axios": "^0.20.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "firebase-admin": "^9.3.0"
   },
   "devDependencies": {
